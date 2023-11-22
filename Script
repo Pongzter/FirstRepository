@@ -1,0 +1,13 @@
+def Test():
+    Input = input(f'Enter Hello: ')
+
+    #Loop for user to enter hello
+    while Input != 'Hello':
+        if Input.lower() == 'hello':
+            print('Hello World')
+            break
+        else:
+            print('Incorrect response')
+            Input = input(f'Enter hello: ')
+
+Test()
